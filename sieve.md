@@ -81,6 +81,7 @@ Items are never moved; only their access bit is changed, and only if it is not i
   <li>Pac-man has travelled the entire queue and returned to the same position without anyone accessing the item</li>
   <li>The item was recently inserted and not accessed before Pac-man ate it</li>
   </ol><br>
+  </details>
 
 How could SIEVE be implemented using a ring buffer (instead of the more obvious linked-list)?
 
