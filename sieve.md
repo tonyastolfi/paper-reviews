@@ -54,7 +54,7 @@ When there are a lot of one-hit wonders; this is true of long-tailed power law d
 - "Hand" pointer
   - Moves from tail to head, eating accessed bits and stale items like Pac-man
 
-<img alt="SIEVE vs FIFO-Reinsertion" src="sieve/sieve-vs-fifo.png" width=60%>
+<img alt="SIEVE vs FIFO-Reinsertion" src="sieve/sieve-vs-fifo.png" width=40%>
 
 #### Insertion
 
