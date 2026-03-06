@@ -31,6 +31,12 @@ Is it possible to have a cache-replacement algorithm for typical (Zipfian distri
 
 Most cached items fall into two categories: _hot_ or _one-hit wonders_.  
 
+#### Background
+
+The **Rank** of a cached item is an indicator of how much effort should be made to keep the item cached; high Rank items are retained and low Rank items evicted under cache pressure.
+**Promotion** of an item means to increase its Rank, i.e. make it less likely to evict.
+**Demotion** means the inverse; to decrease an item's Rank, i.e. make it more likely to evict.
+
 ### Questions
 
 <details>
